@@ -16,6 +16,7 @@ class JUNITStack extends TestCase {
 		assertTrue(s1.isEmpty());
 	}
 	
+	//TC2
 	@Test
 	public void testPushElmToTop() throws Exception {
 		Stack s1 = new Stack(20);
@@ -25,7 +26,7 @@ class JUNITStack extends TestCase {
 		assertEquals(2, s1.top());
 		assertFalse(s1.isFull());
 	}
-	
+	//TC3
 	@Test
 	public void testLastInFirstOut() throws Exception {
 		Stack s1 = new Stack(20);

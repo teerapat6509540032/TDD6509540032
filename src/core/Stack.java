@@ -25,7 +25,7 @@ public class Stack implements IStack {
 	
 	@Override
 	public boolean isEmpty() {
-		if(size>0)
+		if(topStack>-1)
 			return false;
 		else
 			return true;
